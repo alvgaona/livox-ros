@@ -1,0 +1,16 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# ROS 2
+.venv/
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
