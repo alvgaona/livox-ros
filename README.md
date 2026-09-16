@@ -11,7 +11,7 @@ pixi run build
 pixi run livox
 ```
 
-Optional RViz:
+The driver binaries embed `$CONDA_PREFIX/lib` in rpath, so `pixi run livox` is enough after a rebuild.
 
 ```sh
 pixi run ros2 launch livox_ros livox.launch.py rviz:=true
